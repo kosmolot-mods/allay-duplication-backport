@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "allay-duplication-backport",
+  "version": "${version}",
+  "name": "Allay Duplication Backport",
+  "description": "Allay Duplication, backported to 1.19",
+  "authors": [
+    "Kosmolot"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/allay-duplication-backport/icon.png",
+  "environment": "server",
+  "mixins": [
+    "allay-duplication-backport.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19"
+  }
+}
